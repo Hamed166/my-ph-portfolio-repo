@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.portfolio{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.portfolio-items{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.portfolio-items h1{
+    font-size: 55px;
+    font-weight: 400;
+}
+.portfolio-items h3{
+    font-weight: 500;
+}
+.portfolio-items p{
+    color: grey;
+}
+span{
+    color:orange; 
+    color: coral;
+}
+.portfolio-items img{
+    width: 100%;
+    
+}
+.portfolio-btn{
+    background-image: linear-gradient(orange, coral );
+    color: #fff;
+    padding: 8px 35px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/*dream big css*/
+
+.dreamBig{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    margin-top: 100px;
+}
